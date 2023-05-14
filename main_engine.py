@@ -102,4 +102,5 @@ if __name__ == "__main__":
         # run script
         main(source_folder, replica_folder)
 
-        time.sleep(set_interval)
+        # interval in minutes
+        time.sleep(set_interval * 60)
